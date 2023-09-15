@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="loja"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-08-28 04:48:48 "/>
+        <attribute name="created" value="bG9qYTtERVNLVE9QLUcyVkdVM1M7MjAyMy0wOC0yODsiMDQ6MzM6MTYgIjsyNjk5"/>
+        <attribute name="edited" value="bG9qYTtERVNLVE9QLUcyVkdVM1M7MjAyMy0wOC0yODsiMDQ6NDg6NDggIjsxOzI4MTg="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="n1, n2, n3, total" type="Integer" array="False" size=""/>
+            <output expression="&quot;Informe um n&#250;mero inteiro.&quot;" newline="True"/>
+            <input variable="n1"/>
+            <output expression="&quot;Informe um n&#250;mero inteiro.&quot;" newline="True"/>
+            <input variable="n2"/>
+            <output expression="&quot;Informe um n&#250;mero inteiro.&quot;" newline="True"/>
+            <input variable="n3"/>
+            <if expression="(n1 == n2)">
+                <then>
+                    <if expression="(n1 == n3)">
+                        <then>
+                            <output expression="&quot;Os valores s&#227;o iguais.&quot;" newline="True"/>
+                        </then>
+                        <else>
+                            <output expression="&quot;Os valores s&#227;o diferentes.&quot;" newline="True"/>
+                        </else>
+                    </if>
+                </then>
+                <else>
+                    <output expression="&quot;Os valores s&#227;o diferentes.&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>
