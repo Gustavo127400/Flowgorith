@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="loja"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-08-29 10:09:08 "/>
+        <attribute name="created" value="bG9qYTtERVNLVE9QLUcyVkdVM1M7MjAyMy0wOC0yOTsiMTA6MDU6MzIgIjsyNjk0"/>
+        <attribute name="edited" value="bG9qYTtERVNLVE9QLUcyVkdVM1M7MjAyMy0wOC0yOTsiMTA6MDk6MDggIjsxOzI4MDk="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="i, x" type="Integer" array="False" size=""/>
+            <output expression="&quot;Digite um n&#250;mero&quot;" newline="True"/>
+            <input variable="x"/>
+            <for variable="i" start="1" end="10" direction="inc" step="1">
+                <output expression="x * i" newline="True"/>
+            </for>
+        </body>
+    </function>
+</flowgorithm>
