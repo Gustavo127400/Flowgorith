@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="loja"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-08-24 10:41:43 "/>
+        <attribute name="created" value="bG9qYTtERVNLVE9QLUcyVkdVM1M7MjAyMy0wOC0yNDsiMTA6MzU6NDQgIjsyNjk1"/>
+        <attribute name="edited" value="bG9qYTtERVNLVE9QLUcyVkdVM1M7MjAyMy0wOC0yNDsiMTA6NDE6NDMgIjsxOzI3OTk="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="n1, n2, n3, n4, media" type="Integer" array="False" size=""/>
+            <output expression="&quot;1&#186; Bimestre&quot;" newline="True"/>
+            <input variable="n1"/>
+            <output expression="&quot;2&#186; Bimestre&quot;" newline="True"/>
+            <input variable="n2"/>
+            <output expression="&quot;3&#186; Bimestre&quot;" newline="True"/>
+            <input variable="n3"/>
+            <output expression="&quot;4&#186; Bimestre&quot;" newline="True"/>
+            <input variable="n4"/>
+            <assign variable="media" expression="(n1+n2+n3+-n4)/4"/>
+            <if expression="(media &gt; 7)">
+                <then>
+                    <output expression="&quot;Parab&#233;ns, voc&#234; passou!&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;Infelizmente voc&#234; reprovou :(&quot;" newline="True"/>
+                </else>
+            </if>
+            <output expression="media" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
