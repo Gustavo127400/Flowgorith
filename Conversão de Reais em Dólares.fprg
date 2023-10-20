@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="loja"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-08-24 10:47:57 "/>
+        <attribute name="created" value="bG9qYTtERVNLVE9QLUcyVkdVM1M7MjAyMy0wOC0yNDsiMTA6NDQ6NDcgIjsyNjk4"/>
+        <attribute name="edited" value="bG9qYTtERVNLVE9QLUcyVkdVM1M7MjAyMy0wOC0yNDsiMTA6NDc6NTcgIjsxOzI4MTA="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="dolar, valor" type="Integer" array="False" size=""/>
+            <output expression="&quot;Digite o valor em reais&quot;" newline="True"/>
+            <input variable="valor"/>
+            <assign variable="dolar" expression="valor / 4.88"/>
+            <output expression="dolar" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
